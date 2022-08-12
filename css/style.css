@@ -285,6 +285,78 @@ img {
 	background-color: var(--accent-color);
 }
 
+.mailing {
+	margin-left: 93px;
+}
+
+.footer-mailing-text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.footer-mailing-input {
+	width: 358px;
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background: var(--second-bgcolor);
+	padding-left: 16px;
+
+	color: var(--primary-white-color);
+}
+
+.footer-mailing-input::placeholder {
+	font-size: 16px;
+	line-height: 1.25;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mailing {
+	display: flex;
+	gap: 12px;
+}
+
+.footer-mailing-btn {
+	width: 200px;
+	height: 50px;
+
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	gap: 10px;
+
+	color: var(--primary-white-color);
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.footer-btn-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 /* Main page Studio */
 /* Section Hero */
 
