@@ -399,25 +399,28 @@
 				<form class="modal-form-all">
 					<div class="molal-field">
 						<label class="modal-form" for="user-name">Ім'я</label>
-						<input type="text" class="modal-input" name="user-name" id="user-name" />
+						<input class="modal-input" type="text" name="user-name" id="user-name" />
 					</div>
 					<div class="molal-field">
 						<label class="modal-form" for="user-telefon">Телефон</label>
-						<input type="tel" class="modal-input" name="user-telefon" id="user-telefon" />
+						<input class="modal-input" type="tel" name="user-telefon" id="user-telefon" />
 					</div>
 					<div class="molal-field">
 						<label class="modal-form" for="user-email">Пошта</label>
-						<input type="email" class="modal-input" name="user-email" id="user-email" />
+						<input class="modal-input" type="email" name="user-email" id="user-email" />
 					</div>
 					<div class="molal-field">
 						<label class="modal-form" for="user-coment">Коментар</label>
 						<textarea class="user-text" name="user-coment" id="user-coment" placeholder="Введіть текст"></textarea>
 					</div>
 					<div>
-						<label class="modal-form for=""></label>
-						<input type="checkbox" >
+						<input class="modal-user-check" type="checkbox" name="user-agree" value="agree" id="user-agree" />
+						<label class="modal-form-check" for="user-agree"
+							>Погоджуюся з розсилкою та приймаю
+							<a class="modal-check-link" href="">Умови договору</a>
+						</label>
 					</div>
-					<button class="submit-btn">Відправити</button>
+					<button class="submit-btn" type="submit">Відправити</button>
 				</form>
 			</div>
 		</div>
