@@ -286,7 +286,7 @@ img {
 }
 
 .mailing {
-	margin-left: 93px;
+	margin-left: auto;
 }
 
 .footer-mailing-text {
@@ -351,6 +351,7 @@ img {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	cursor: pointer;
+	border: none;
 }
 
 .footer-btn-icon {
@@ -755,6 +756,10 @@ img {
 	fill: var(--accent-color);
 }
 
+.modal-field-text {
+	margin-bottom: 20px;
+}
+
 .user-text {
 	width: 448px;
 	height: 120px;
@@ -774,6 +779,11 @@ img {
 	letter-spacing: 0.01em;
 
 	color: rgba(117, 117, 117, 0.5);
+}
+
+.checkbox {
+	display: flex;
+	justify-content: center;
 }
 
 .modal-form-check {
